@@ -43,5 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'jquery-timepicker-rails'
+gem 'mustache-js-rails'
 
 gem 'calagator'

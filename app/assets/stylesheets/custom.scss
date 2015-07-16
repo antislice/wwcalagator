@@ -1,0 +1,13 @@
+@import "calagator/variables";
+
+#global_header #project_title_wide {
+  font-family: Sanchez;
+  color: $header_text;
+  font-size: 29px;
+  line-height: 31px;
+  height: 31px;
+  left: 40px;
+  position: absolute;
+  top: 25px;
+//  width: 135px;
+}

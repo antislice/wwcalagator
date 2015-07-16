@@ -1,9 +1,9 @@
 Calagator.setup do |config|
   # Site name
-  config.title = 'Calagator'
+  config.title = 'Women Who Calagator'
 
   # Site tagline
-  config.tagline = 'A Tech Calendar'
+  config.tagline = 'A WiTech Calendar'
 
   # Site URL with trailing slash
   config.url = 'http://my-calagator.org/'
@@ -13,8 +13,8 @@ Calagator.setup do |config|
   config.administrator_email = 'your@email.addr'
 
   # Optional username and password to use when accessing /admin pages
-  # config.admin_username = 'admin'
-  # config.admin_password = ENV['CALAGATOR_ADMIN_PASSWORD']
+  config.admin_username = 'admin'
+  config.admin_password = ENV['CALAGATOR_ADMIN_PASSWORD']
 
   # API key for Meetup.com, get your own from: http://www.meetup.com/meetup_api/key/
   # This is sensitive information and should not be stored in version control.

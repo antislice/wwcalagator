@@ -48,5 +48,6 @@ end
 
 gem 'jquery-timepicker-rails'
 gem 'mustache-js-rails'
+gem 'leaflet-rails'
 
 gem 'calagator'
